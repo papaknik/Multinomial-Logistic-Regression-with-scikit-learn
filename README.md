@@ -49,6 +49,12 @@ The notebook is organized into the following sections:
 - **BayesSearchCV** optimization provided slightly better balanced accuracy, although computational constraints limited full convergence.
 - **SMOTE** was effective in increasing true positives for the minority classes but introduced variability, indicating further regularization might be beneficial.
 
+## Model Performance (Confusion Matrices)
+
+Below the confusion matrices summarizing the performance of each model:
+
+![Confusion Matrix](images/confusion_matrices_plot.png)
+
 ## Dependencies
 
 - `scikit-learn`
