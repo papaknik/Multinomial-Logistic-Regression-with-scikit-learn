@@ -45,7 +45,7 @@ The notebook is organized into the following sections:
 
 ## Key Findings
 A consistent trade-off between precision and recall across all logistic regression iterations was observed and finaly
-all failed to handle class imbalance in the dataset efficiently.
+all failed to handle class imbalance in the dataset efficiently.   
 While class balancing techniques like SMOTE increased the model’s sensitivity to minority classes, they did so at the cost 
 of introducing more misclassifications in the majority class.
 
