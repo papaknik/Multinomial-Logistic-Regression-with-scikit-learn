@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project explores the application of **Multinomial Logistic Regression** for multiclass classification, focusing on techniques to handle **imbalanced datasets**. The primary objective is to evaluate the effectiveness of different methods—class weighting, SMOTE, One-vs-Rest (OvR), and Bayes Grid Search approaches—in handling a heavily imbalanced dataset with three target classes: *No Precipitation*, *Rain*, and *Snowfall*.
+This project explores the application of **Multinomial Logistic Regression** for multiclass classification, focusing on techniques to handle **imbalanced datasets**. The primary objective is to evaluate the effectiveness of different methods—class weighting, SMOTE, One-vs-Rest (OvR), and Bayesian Optimization approaches—in handling a heavily imbalanced dataset with three target classes: *No Precipitation*, *Rain*, and *Snowfall*.
 
 **Key Highlights**:
 - Implementation of multinomial logistic regression models using scikit-learn
@@ -31,11 +31,11 @@ The notebook is organized into the following sections:
    - **Weighted Logistic Regression**: Application of `class_weight` to address imbalance
    - **SMOTE Logistic Regression**: Use of synthetic oversampling to balance classes
    - **One-vs-Rest (OvR) Logistic Regression**: Handling multiclass classification by training one binary classifier per class
-   - **Bayes Grid Search Logistic Regression**: Hyperparameter tuning using Bayesian optimization
+   - **Bayesian Optimization**: Hyperparameter tuning using BayesSearchCV
 
 4. **Model Evaluation and Comparison**:
-   - Performance metrics: Balanced accuracy, F1 score, and confusion matrix analysis
-   - In-depth learning curve analysis for each model
+   - Performance metrics: Balanced accuracy, F1-macro score, and confusion matrix analysis
+   - Learning curve analysis for each model
    - Summary DataFrame with a side-by-side comparison of models
 
 5. **Final Thoughts**:
