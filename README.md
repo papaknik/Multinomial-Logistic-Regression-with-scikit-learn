@@ -51,11 +51,9 @@ of introducing more misclassifications in the majority class.
 
 This could be due to several factors:
 
-    - Complex, potentially non-linear relationships among the predictors that Logistic Regression fails to capture.
-    - Severe class imbalance, which continues to impact performance despite various balancing strategies.
-    - The algorithm may have reached its full potential given the constraints of this dataset.
-
-
+- Complex, potentially non-linear relationships among the predictors that Logistic Regression fails to capture.
+- Severe class imbalance, which continues to impact performance despite various balancing strategies.
+- The algorithm may have reached its full potential given the constraints of this dataset.
 
 ## Model Performance (Confusion Matrices)
 
