@@ -1,4 +1,4 @@
-# Multinomial Logistic Regression with scikit-learn: Handling Imbalanced Datasets
+# Multinomial Logistic Regression with scikit-learn
 
 ## Project Overview
 
