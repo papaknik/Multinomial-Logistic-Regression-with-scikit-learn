@@ -2,56 +2,38 @@
 
 ## Project Overview
 
-This project explores the application of **Multinomial Logistic Regression** for multiclass classification, focusing on techniques to handle **imbalanced datasets**. The primary objective is to evaluate the effectiveness of different methods—class weighting, SMOTE, One-vs-Rest (OvR), and Bayesian Optimization approaches—in handling a heavily imbalanced dataset with three target classes: *No Precipitation*, *Rain*, and *Snowfall*.
+This project explores Multinomial Logistic Regression for multiclass classification while trying to address severe class imbalance. The objective is to evaluate different techniques, like class weighting, oversampling with SMOTE, One-vs-Rest (OvR), and Bayesian Optimization, on a weather dataset with three target classes:
+✅ No Precipitation
+✅ Rain
+✅ Snowfall
 
-**Key Highlights**:
-- Implementation of multinomial logistic regression models using scikit-learn
-- Handling class imbalance with techniques like `class_weight`, SMOTE, and OvR
-- Model evaluation using metrics appropriate for imbalanced data, primarily **balanced accuracy**
-- Learning curve analysis to assess model performance and generalization
+✔️ Implementation of multinomial logistic regression with scikit-learn
+✔️ Model evaluation using metrics like balanced accuracy and confusion matrices
+✔️ Plotting the learning curves of the log-loss (cross entropy) function 
 
 ## Data
-The dataset contains historical weather-related features obtained via the Open-Meteo API. The target variable is a categorical label representing one of three classes:
-
-    No Precipitation
-    Rain
-    Snowfall
-
-This dataset serves as the foundation for evaluating different logistic regression techniques in a multi-class classification setting.
+The dataset consists of historical weather features obtained via the Open-Meteo API and will serve as the foundation for evaluating different ML algorithms in a multi-class classification setting.
 
 ## Project Structure
 
-The notebook is organized into the following sections:
+The project consists of notebooks, each focusing on a specific phase of the workflow:
 
-1. **Introduction and Objective**:
-   - Overview of multinomial logistic regression and the need for class imbalance handling.
+📌 01 - Introduction – Overview of the problem and objectives.
+📌 02 - Basic EDA – Data exploration, class distribution, feature analysis.
+📌 03 - Logistic Regression Essentials – Theoretical background on multinomial logistic regression.
+📌 04 - Standard Logistic Regression – Baseline model without imbalance handling.
+📌 05 - Weighted Logistic Regression – Using class_weight to handle imbalance.
+📌 06 - SMOTE Logistic Regression – Addressing imbalance with synthetic oversampling.
+📌 07 - OvR Logistic Regression – Handling multiclass classification via One-vs-Rest (OvR) strategy.
+📌 08 - Bayesian Optimization – Fine-tuning hyperparameters with Bayesian Optimization (BayesSearchCV).
+📌 09 - Model Comparison & Final Thoughts – Evaluation, confusion matrices, conclusions, and future work.
 
-2. **Data Preparation**:
-   - Description of dataset and features
-   - Feature engineering, including lagged variables for predictive modeling
-   - Exploratory Data Analysis (EDA) covering class distribution, correlation analysis, and outlier detection
-
-3. **Model Implementation**:
-   - **Standard Logistic Regression**: Baseline model without imbalance handling
-   - **Weighted Logistic Regression**: Application of `class_weight` to address imbalance
-   - **SMOTE Logistic Regression**: Use of synthetic oversampling to balance classes
-   - **One-vs-Rest (OvR) Logistic Regression**: Handling multiclass classification by training one binary classifier per class
-   - **Bayesian Optimization**: Hyperparameter tuning using BayesSearchCV
-
-4. **Model Evaluation and Comparison**:
-   - Performance metrics: Balanced accuracy, F1-macro score, and confusion matrix analysis
-   - Summary DataFrame with a side-by-side comparison of models
-
-5. **Final Thoughts**:
-   - Conclusion on the effectiveness of each model
-   - Discussion of limitations due to computational constraints
-   - Overview of future work, including potential exploration of advanced algorithms
 
 ## Key Findings
 A consistent trade-off between precision and recall across all logistic regression iterations was observed and finaly
 all failed to handle class imbalance in the dataset efficiently.   
-While class balancing techniques like SMOTE increased the model’s sensitivity to minority classes, they did so at the cost 
-of introducing more misclassifications in the majority class.
+While all class balancing techniques increased the model’s sensitivity to minority classes, they did so at the cost 
+of introducing more misclassifications in the majority class and therefore reducing the precision.
 
 This could be due to several factors:
 
@@ -74,10 +56,6 @@ Below the confusion matrices summarizing the performance of each model:
 - `seaborn`
 - `imblearn`
 - `bayesian-optimization` (for BayesSearchCV)
-
-## References
-
-For more information on multinomial logistic regression and its implementation in scikit-learn, visit the [official scikit-learn documentation](https://scikit-learn.org/stable/).
 
 ## Future Work
 
