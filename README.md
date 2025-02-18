@@ -7,12 +7,8 @@ This project explores Multinomial Logistic Regression for multiclass classificat
 - Rain
 - Snowfall
 
-✔️ Implementation of multinomial logistic regression with scikit-learn   
-✔️ Model evaluation using metrics like balanced accuracy and confusion matrices   
-✔️ Plotting the learning curves of the log-loss (cross entropy) function 
-
 ## Data
-The dataset consists of historical weather features obtained via the Open-Meteo API and will serve as the foundation for evaluating different ML algorithms in a multi-class classification setting.
+The dataset consists of historical weather parameters obtained via the Open-Meteo API and will serve as the foundation for evaluating different ML algorithms in a multi-class classification setting.
 
 ## Project Structure
 
