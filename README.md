@@ -10,9 +10,7 @@ This project explores Multinomial Logistic Regression for multiclass classificat
 ## Data
 The dataset consists of historical weather parameters obtained via the Open-Meteo API and will serve as the foundation for evaluating different ML algorithms in a multi-class classification setting.
 
-
-
-📂 Project Structure
+## Project Structure
 
 Each notebook focuses on a specific aspect of the study:
 
