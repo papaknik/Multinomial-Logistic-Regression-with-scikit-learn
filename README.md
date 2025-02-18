@@ -14,7 +14,7 @@ The dataset consists of historical weather parameters obtained via the Open-Mete
 
 The project consists of notebooks, each focusing on a specific phase of the workflow:
 
-01 - Introduction – Overview of the problem and objectives.   
+01 - Introduction – Overview of the problem and objectives - Understanding the data   
 02 - Basic EDA – Data exploration, class distribution, feature analysis.   
 03 - Logistic Regression Essentials – Theoretical background on multinomial logistic regression.   
 04 - Standard Logistic Regression – Baseline model without imbalance handling.   
