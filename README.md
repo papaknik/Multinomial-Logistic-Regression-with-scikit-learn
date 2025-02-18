@@ -11,8 +11,13 @@ This project explores the application of **Multinomial Logistic Regression** for
 - Learning curve analysis to assess model performance and generalization
 
 ## Data
+The dataset contains historical weather-related features obtained via the Open-Meteo API. The target variable is a categorical label representing one of three classes:
 
-The dataset consists of weather-related features and is derived from historical data, with the target variable being one of three classes: *No Precipitation*, *Rain*, or *Snowfall*. Data preparation includes feature engineering (such as creating lagged variables), handling missing values, and data transformations.
+    No Precipitation
+    Rain
+    Snowfall
+
+This dataset serves as the foundation for evaluating different logistic regression techniques in a multi-class classification setting.
 
 ## Project Structure
 
