@@ -2,13 +2,13 @@
 
 ## Project Overview
 
-This project explores Multinomial Logistic Regression for multiclass classification while trying to address severe class imbalance. The objective is to evaluate different techniques, like class weighting, oversampling with SMOTE, One-vs-Rest (OvR), and Bayesian Optimization, on a weather dataset with three target classes:
-✅ No Precipitation
-✅ Rain
-✅ Snowfall
+This project explores Multinomial Logistic Regression for multiclass classification while trying to address severe class imbalance. The objective is to evaluate different techniques, like class weighting, oversampling with SMOTE, One-vs-Rest (OvR), and Bayesian Optimization, on a weather dataset with three target classes:   
+- No Precipitation
+- Rain
+- Snowfall
 
-✔️ Implementation of multinomial logistic regression with scikit-learn
-✔️ Model evaluation using metrics like balanced accuracy and confusion matrices
+✔️ Implementation of multinomial logistic regression with scikit-learn   
+✔️ Model evaluation using metrics like balanced accuracy and confusion matrices   
 ✔️ Plotting the learning curves of the log-loss (cross entropy) function 
 
 ## Data
@@ -18,15 +18,15 @@ The dataset consists of historical weather features obtained via the Open-Meteo 
 
 The project consists of notebooks, each focusing on a specific phase of the workflow:
 
-📌 01 - Introduction – Overview of the problem and objectives.
-📌 02 - Basic EDA – Data exploration, class distribution, feature analysis.
-📌 03 - Logistic Regression Essentials – Theoretical background on multinomial logistic regression.
-📌 04 - Standard Logistic Regression – Baseline model without imbalance handling.
-📌 05 - Weighted Logistic Regression – Using class_weight to handle imbalance.
-📌 06 - SMOTE Logistic Regression – Addressing imbalance with synthetic oversampling.
-📌 07 - OvR Logistic Regression – Handling multiclass classification via One-vs-Rest (OvR) strategy.
-📌 08 - Bayesian Optimization – Fine-tuning hyperparameters with Bayesian Optimization (BayesSearchCV).
-📌 09 - Model Comparison & Final Thoughts – Evaluation, confusion matrices, conclusions, and future work.
+01 - Introduction – Overview of the problem and objectives.
+02 - Basic EDA – Data exploration, class distribution, feature analysis.
+03 - Logistic Regression Essentials – Theoretical background on multinomial logistic regression.
+04 - Standard Logistic Regression – Baseline model without imbalance handling.
+05 - Weighted Logistic Regression – Using class_weight to handle imbalance.
+06 - SMOTE Logistic Regression – Addressing imbalance with synthetic oversampling.
+07 - OvR Logistic Regression – Handling multiclass classification via One-vs-Rest (OvR) strategy.
+08 - Bayesian Optimization – Fine-tuning hyperparameters with Bayesian Optimization (BayesSearchCV).
+09 - Model Comparison & Final Thoughts – Evaluation, confusion matrices, conclusions, and future work.
 
 
 ## Key Findings
