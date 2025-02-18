@@ -10,21 +10,31 @@ This project explores Multinomial Logistic Regression for multiclass classificat
 ## Data
 The dataset consists of historical weather parameters obtained via the Open-Meteo API and will serve as the foundation for evaluating different ML algorithms in a multi-class classification setting.
 
-## Project Structure
+📂 Project Structure
 
-The project consists of notebooks, each focusing on a specific phase of the workflow:
+Each notebook focuses on a specific aspect of the study:
 
-01 - Introduction – Overview of the problem and objectives - Understanding the data   
-02 - Basic EDA – Data exploration, class distribution, feature analysis.   
-03 - Logistic Regression Essentials – Theoretical background on multinomial logistic regression.   
-04 - Standard Logistic Regression – Baseline model without imbalance handling.   
-05 - Weighted Logistic Regression – Using class_weight to handle imbalance.   
-06 - SMOTE Logistic Regression – Addressing imbalance with synthetic oversampling.   
-07 - OvR Logistic Regression – Handling multiclass classification via One-vs-Rest (OvR) strategy.   
-08 - Bayesian Optimization – Fine-tuning hyperparameters with Bayesian Optimization (BayesSearchCV).   
-09 - Model Comparison & Final Thoughts – Evaluation, confusion matrices, conclusions, and future work.
+✅ 01 - Introduction
+    Overview of the problem, objectives, and dataset understanding.
+✅ 02 - Basic EDA
+    Exploratory Data Analysis (EDA), class distribution, and feature analysis.
+✅ 03 - Logistic Regression Essentials
+    Theoretical background on multinomial logistic regression.
+✅ 04 - Standard Logistic Regression
+    Baseline model without imbalance handling.
+✅ 05 - Weighted Logistic Regression
+    Using class_weight to address class imbalance.
+✅ 06 - SMOTE Logistic Regression
+    Applying Synthetic Minority Oversampling Technique (SMOTE) for data balancing.
+✅ 07 - OvR Logistic Regression
+    Handling multiclass classification via One-vs-Rest (OvR) strategy.
+✅ 08 - Bayesian Optimization
+    Fine-tuning hyperparameters with Bayesian Optimization (BayesSearchCV).
+✅ 09 - Model Comparison & Final Thoughts
+    Evaluation, confusion matrices, conclusions, and future work.
 
 ## Key Findings
+
 A consistent trade-off between precision and recall across all logistic regression iterations was observed and finaly
 all failed to handle class imbalance in the dataset efficiently.   
 While all class balancing techniques increased the model’s sensitivity to minority classes, they did so at the cost 
