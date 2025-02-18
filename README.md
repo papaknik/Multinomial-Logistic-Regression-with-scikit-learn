@@ -68,6 +68,6 @@ Future exploration will include more advanced classification algorithms, such as
 
 ## Author
 
-This project was developed by Nikos Papakostas. Feedback and contributions are welcome!
+This practice project was developed by Nikos Papakostas. Feedback and contributions are welcome!
 
 ---
