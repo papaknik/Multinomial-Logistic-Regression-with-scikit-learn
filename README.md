@@ -8,7 +8,7 @@ This project explores the application of **Multinomial Logistic Regression** for
 - Implementation of multinomial logistic regression models using scikit-learn
 - Handling class imbalance with techniques like `class_weight`, SMOTE, and OvR
 - Model evaluation using metrics appropriate for imbalanced data, primarily **balanced accuracy**
-- Detailed learning curve analysis to assess model performance and generalization
+- Learning curve analysis to assess model performance and generalization
 
 ## Data
 
