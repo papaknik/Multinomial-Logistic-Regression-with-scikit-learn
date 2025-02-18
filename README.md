@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project explores Multinomial Logistic Regression for multiclass classification while trying to address severe class imbalance. The objective is to evaluate different techniques, like class weighting, oversampling with SMOTE, One-vs-Rest (OvR), and Bayesian Optimization, on a weather dataset with three target classes:   
+This practice project explores Multinomial Logistic Regression for multiclass classification while trying to address severe class imbalance. The objective is to evaluate different techniques, like class weighting, oversampling with SMOTE, One-vs-Rest (OvR), and Bayesian Optimization, on a weather dataset with three target classes:   
 - No Precipitation
 - Rain
 - Snowfall
