@@ -35,7 +35,6 @@ The notebook is organized into the following sections:
 
 4. **Model Evaluation and Comparison**:
    - Performance metrics: Balanced accuracy, F1-macro score, and confusion matrix analysis
-   - Learning curve analysis for each model
    - Summary DataFrame with a side-by-side comparison of models
 
 5. **Final Thoughts**:
