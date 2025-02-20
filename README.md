@@ -64,7 +64,7 @@ Below the confusion matrices summarizing the performance of each model:
 
 ## Future Work
 
-Future exploration will include more advanced classification algorithms, such as Random Forests, Support Vector Machines (SVM), and Neural Networks, to further address class imbalance and improve predictive accuracy if possible.
+Future exploration will include more advanced classification algorithms, such as Random Forests, Support Vector Machines (SVM), and Artificial Neural Networks (ANNs), to further address class imbalance and improve predictive accuracy if possible.
 
 ## Author
 
